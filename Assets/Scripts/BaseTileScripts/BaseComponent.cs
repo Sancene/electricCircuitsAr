@@ -20,7 +20,6 @@ public class BaseComponent : MonoBehaviour
     {
         prev = prevObj;
         prevObj.GetComponent<BaseComponent>().next = gameObject;
-        Debug.Log("zje[pa");
     }
 
     // Update is called once per frame
